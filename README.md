@@ -1,4 +1,4 @@
-# over-the-wire-2024
+# Over-the-wire-2024
 
 Over the wire is a game that can be accessed through the site https://overthewire.org/wargames/ . The walkthrough that is being displayed is bandit which is provided as the first level for a cybersecurity student that can be easily accessed freely and go on level by level.
 
