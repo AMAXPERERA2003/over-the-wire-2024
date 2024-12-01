@@ -24,13 +24,17 @@ But as a first year cybersecurity student it is difficult access the server for 
 To access the first and foremost level of the game,once you press enter you will get into the first level but they ask for a password so for the password type,
 
 <pre><code>bandit0</code></pre> as the password.
+
 ![image](https://github.com/user-attachments/assets/6e4c9c96-ce1a-4ca9-bdcf-22f28bfc0b86)
+
 ![image](https://github.com/user-attachments/assets/5d7fa3ca-d3d1-4670-b8c9-e020de04a50c)
 
 - There is no clue given in the code here so first check the file directory by typing, 
 <pre><code>ls</code></pre>
 Then you get a file/directory called readme file. First type in cd readme and see whether you can access it.
+
 ![image](https://github.com/user-attachments/assets/ec0376cc-0fe3-46ee-b15e-6708fbfcfee7)
+
 It shows you that you can't access it, so then it means that it is a file so you can view its details by typing.
 <pre><code>cat readme</code></pre>
 
