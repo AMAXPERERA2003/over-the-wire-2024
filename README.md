@@ -9,7 +9,7 @@ But as a first year cybersecurity student it is difficult access the server for 
 
 <h1>You can do it</h1>
 
-##Level 0
+<h2>Level 0</h2>
 - First go to the overthewire site and then go to the bandit server. There they give you the level 0 rules and guide of how to do it.
 
 <h2>Let's take a look at that</h2>
