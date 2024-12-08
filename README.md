@@ -41,3 +41,33 @@ It shows you that you can't access it, so then it means that it is a file so you
 Then successfully you will get the password for the next level.Password will be <pre><code>ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If</code></pre>
 
 ![image](https://github.com/user-attachments/assets/75befae7-6578-442d-be64-44de358c73d0)
+
+# Level 0 ----> Level 1
+
+To go from level 0 to level 1, we need to type the code in the windows powershell as;
+        <pre><code>ssh bandit1@bandit.labs.overthewire.org -p 2220 </code></pre>
+
+Go to the site to check for any clues or tips given for the level,
+
+![image](https://github.com/user-attachments/assets/cf0b3ebf-1849-432c-b05a-140a01287d69)
+
+Once you access the level 1 after entering the password you got from level 1, explore the game a little more. Before exploring you should get a view of the game like this.
+
+![image](https://github.com/user-attachments/assets/adcfe815-50b9-41f2-94e6-850f6f2cf612)
+
+The easiest way to see the contents in the file is to go by pressing the command ls, to view the contents in the file which will then show a file - but we do not know to use which command to access the - file
+![image](https://github.com/user-attachments/assets/c26b644a-9e7b-48d3-8078-e04be2f240e9)
+
+To handle a file named dash in the windows powershell, you need to first try to access it by typing cd ./- . But will it work,let's see what kind of result we get;
+
+This is the result we get,
+![image](https://github.com/user-attachments/assets/dc94eed4-afa6-40f7-9a11-6cacd4433f72)
+It says that the file we tried to access is not a directory then try to retreive the value in the file by typing the command.
+
+<pre><code>cat ./- </code></pre>
+<h3>The result we get here is shown below in the picture: </h3>
+
+![image](https://github.com/user-attachments/assets/d5e1a014-11bf-43be-891e-588dc9d9cb85)
+This gives us the password or code to the next level,
+
+<pre><code>263JGJPfgU6LtdEvgfWU1XP5yac29mFx</code></pre>
