@@ -1,1 +1,6 @@
+Level 0 ----> Level 1
 
+To go from level 0 to level 1, we need to type the code in the windows powershell as;
+        <pre><code>ssh bandit1@bandit.labs.overthewire.org -p 2220</pre></code>
+
+Go to the site to check 
